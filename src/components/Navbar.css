@@ -1,0 +1,42 @@
+.navbarr{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(px);
+    backdrop-filter: blur(5px);
+}
+#logo-pari{
+    margin-left: 0rem;
+}
+
+.nav-right{
+    position: absolute;
+    right: 0rem;
+    top:2rem;
+}
+
+.navv{
+    margin-top: .5rem;
+}
+
+.typeAnim{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+  
+.logo{
+    max-width: 10%;
+    max-height: 10%;
+}
