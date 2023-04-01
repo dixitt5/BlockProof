@@ -9,7 +9,6 @@ import Marketplace from "./components/Marketplace";
 import Profile from "./components/Profile";
 import NFTPage from "./components/NFTpage";
 import Documentation from "./components/Documentation";
-import Chatbot from "./components/Chatbot";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,7 +20,6 @@ root.render(
         <Route path="/nftPage/:tokenId" element={<NFTPage />} />
         <Route path="/profile" element={<Profile />} />
         {/* <Route path="/docs" element={<Documentation />} /> */}
-        <Route path="/chat" element={<Chatbot />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
